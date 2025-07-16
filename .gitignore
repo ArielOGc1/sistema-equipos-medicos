@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+base_datos.db
+archivos/
