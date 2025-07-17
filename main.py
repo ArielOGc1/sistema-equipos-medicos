@@ -23,3 +23,7 @@ app.include_router(archivos.router)
 def home():
     return {"message": "API de clínica operativa"}
 
+import os
+
+if os.environ.get("RUN_INIT") == "1":
+    from cargar_equipos import *  # Ejecutar solo una vez en Render
