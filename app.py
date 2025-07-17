@@ -11,7 +11,7 @@ AREAS_EQUIPO = ["UCI", "Quirófano", "Consulta Externa", "Laboratorio", "Hospita
 TIPOS_EQUIPO = ["Diagnóstico", "Terapia", "Soporte", "Monitoreo", "Imagenología", "Laboratorio", "Otro"]
 
 # URL del backend
-API_URL = "https://backend-equipos.onrender.com"
+API_URL = "https://backend-equipos-qv34.onrender.com"
 
 # Configuracion de Streamlit
 st.set_page_config(page_title="Inventario Médico", layout="wide")
