@@ -22,3 +22,8 @@ app.include_router(archivos.router)
 @app.get("/")
 def home():
     return {"message": "API de clínica operativa"}
+
+import os
+
+if os.environ.get("RUN_INIT") == "1":
+    from cargar_equipos import *  # o similar
